@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
-
+import { collection, addDoc } from "firebase/firestore";
 import Header from './Header';
 import Table from './Table';
 import Add from './Add';
